@@ -7,7 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1P0JzSyR8ECwJ5kAu1kVyd0li4ftV23gv
 """
 
-!pip install streamlit
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
@@ -21,7 +20,7 @@ Original file is located at
 import pandas as pd
 
 # Load the Customer_Profiling.csv file into a DataFrame
-df = pd.read_csv('/content/Customer_Profiling.csv')
+df = pd.read_csv('Customer_Profiling.csv')
 
 # Display the first 5 rows of the DataFrame
 display(df.head())
